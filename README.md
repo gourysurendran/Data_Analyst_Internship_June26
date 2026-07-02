@@ -2,7 +2,7 @@
 
 Welcome to my **Data Analyst Internship** repository at **Elevate Labs**.
 
-This repository contains the tasks, datasets, notebooks, dashboards, and documentation completed during my internship. It will be updated regularly as I complete new tasks throughout the internship.
+This repository contains the tasks, datasets, notebooks, dashboards, SQL scripts, and documentation completed during my internship. It will be updated regularly as I complete new tasks throughout the internship.
 
 ## Repository Structure
 
@@ -22,6 +22,10 @@ Data_Analyst_Internship_June26/
 │   ├── Task2_PowerBI.pbix
 │   ├── Dashboard Screenshot.png
 │   └── Dashboard.pdf (optional)
+├── task3/
+│   ├── README.md
+│   ├── task3.sql
+│   └── screenshots/
 └── ...
 ```
 
@@ -55,16 +59,34 @@ Create an interactive Power BI dashboard to visualize sales data and present mea
 - Designed an interactive dashboard with clear business insights.
 - Saved the Power BI project and dashboard report.
 
+---
+
+### Task 3: SQL for Data Analysis
+
+**Objective:**
+Use SQL queries to extract, manipulate, and analyze data from a relational database.
+
+**Work Completed:**
+- Created a MySQL database and tables.
+- Inserted sample records into the database.
+- Executed SQL queries using SELECT, WHERE, ORDER BY, and GROUP BY.
+- Performed INNER JOIN, LEFT JOIN, and RIGHT JOIN operations.
+- Used aggregate functions (SUM and AVG).
+- Implemented subqueries, views, and indexes.
+- Captured query outputs and documented the SQL scripts.
+
 ## Tools & Technologies
 
 - Python
 - Pandas
 - Jupyter Notebook
 - Microsoft Power BI
+- MySQL Workbench
+- SQL
 - Visual Studio Code
 - Git
 - GitHub
 
 ## About
 
-This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical data analysis skills, including data preprocessing, visualization, and business insight generation. New tasks will be added as the internship progresses.
+This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, visualization, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
