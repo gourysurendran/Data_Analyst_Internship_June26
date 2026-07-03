@@ -26,6 +26,13 @@ Data_Analyst_Internship_June26/
 │   ├── README.md
 │   ├── task3.sql
 │   └── screenshots/
+├── task4/
+│   ├── README.md
+│   ├── insights.md
+│   ├── Task4_PowerBI.pbix
+│   ├── Sample-Superstore.csv
+│   ├── Dashboard_Screenshot.png
+│   └── Dashboard_Summary.pptx
 └── ...
 ```
 
@@ -75,6 +82,22 @@ Use SQL queries to extract, manipulate, and analyze data from a relational datab
 - Implemented subqueries, views, and indexes.
 - Captured query outputs and documented the SQL scripts.
 
+---
+
+### Task 4: Dashboard Design
+
+**Objective:**
+Design an interactive Power BI dashboard to analyze Superstore sales data and present meaningful business insights.
+
+**Work Completed:**
+- Imported the Superstore dataset into Power BI.
+- Created KPI cards for Total Sales, Total Profit, and Total Quantity.
+- Built a Sales Trend (Order Date) line chart for time-series analysis.
+- Developed visualizations for Sales by Category, Sales by Region, Sales by Segment, and Profit by Category.
+- Added an interactive Region slicer for filtering dashboard data.
+- Designed a clean dashboard layout with a professional title.
+- Documented key business insights and prepared a PowerPoint summary.
+
 ## Tools & Technologies
 
 - Python
@@ -89,4 +112,4 @@ Use SQL queries to extract, manipulate, and analyze data from a relational datab
 
 ## About
 
-This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, visualization, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
+This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, visualization, dashboard design, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
