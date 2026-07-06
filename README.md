@@ -2,7 +2,7 @@
 
 Welcome to my **Data Analyst Internship** repository at **Elevate Labs**.
 
-This repository contains the tasks, datasets, notebooks, dashboards, SQL scripts, and documentation completed during my internship. It will be updated regularly as I complete new tasks throughout the internship.
+This repository contains the tasks, datasets, notebooks, dashboards, SQL scripts, reports, and documentation completed during my internship. It will be updated regularly as I complete new tasks throughout the internship.
 
 ## Repository Structure
 
@@ -33,6 +33,12 @@ Data_Analyst_Internship_June26/
 │   ├── Sample-Superstore.csv
 │   ├── Dashboard_Screenshot.png
 │   └── Dashboard_Summary.pptx
+├── task5/
+│   ├── README.md
+│   ├── insights.md
+│   ├── eda.ipynb
+│   ├── Titanic.csv
+│   └── EDA_Report.pdf
 └── ...
 ```
 
@@ -95,13 +101,30 @@ Design an interactive Power BI dashboard to analyze Superstore sales data and pr
 - Built a Sales Trend (Order Date) line chart for time-series analysis.
 - Developed visualizations for Sales by Category, Sales by Region, Sales by Segment, and Profit by Category.
 - Added an interactive Region slicer for filtering dashboard data.
-- Designed a clean dashboard layout with a professional title.
-- Documented key business insights and prepared a PowerPoint summary.
+- Designed a professional dashboard layout with interactive visuals.
+- Documented business insights and prepared a PowerPoint summary.
+
+---
+
+### Task 5: Exploratory Data Analysis (EDA)
+
+**Objective:**
+Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify patterns, trends, relationships, and insights using statistical methods and visualizations.
+
+**Work Completed:**
+- Loaded the Titanic dataset using Pandas.
+- Explored the dataset using `head()`, `info()`, `describe()`, and `value_counts()`.
+- Created visualizations including Histogram, Boxplot, Scatter Plot, Correlation Heatmap, and Pairplot.
+- Analyzed missing values, distributions, correlations, and outliers.
+- Documented observations for each visualization.
+- Summarized key findings in a PDF report and supporting documentation.
 
 ## Tools & Technologies
 
 - Python
 - Pandas
+- Matplotlib
+- Seaborn
 - Jupyter Notebook
 - Microsoft Power BI
 - MySQL Workbench
@@ -112,4 +135,4 @@ Design an interactive Power BI dashboard to analyze Superstore sales data and pr
 
 ## About
 
-This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, visualization, dashboard design, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
+This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, exploratory data analysis, visualization, dashboard design, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
