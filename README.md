@@ -167,3 +167,9 @@ Analyze monthly revenue and order volume using SQL aggregation functions on an o
 ## About
 
 This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in **data cleaning, exploratory data analysis, data visualization, dashboard design, SQL-based data analysis, sales trend analysis, and business insight generation**. The repository will continue to grow as I complete additional internship tasks.
+
+## Author
+
+**Goury Surendran**  
+B.Tech CSE (AI & ML) | Data Analyst Intern at Elevate Labs  
+GitHub: https://github.com/gourysurendran
