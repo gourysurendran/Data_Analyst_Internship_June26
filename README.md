@@ -39,6 +39,18 @@ Data_Analyst_Internship_June26/
 │   ├── eda.ipynb
 │   ├── Titanic.csv
 │   └── EDA_Report.pdf
+├── task6/
+│   ├── README.md
+│   ├── insights.md
+│   ├── task6.sql
+│   ├── task6.db
+│   ├── online_sales.csv
+│   └── out/
+│       ├── monthly_sales_results.png
+│       ├── top3_months_sales.png
+│       ├── monthly_order_volume.png
+│       ├── product_revenue_results.png
+│       └── average_revenue_results.png
 └── ...
 ```
 
@@ -80,12 +92,12 @@ Create an interactive Power BI dashboard to visualize sales data and present mea
 Use SQL queries to extract, manipulate, and analyze data from a relational database.
 
 **Work Completed:**
-- Created a MySQL database and tables.
+- Created a database and tables.
 - Inserted sample records into the database.
 - Executed SQL queries using SELECT, WHERE, ORDER BY, and GROUP BY.
-- Performed INNER JOIN, LEFT JOIN, and RIGHT JOIN operations.
-- Used aggregate functions (SUM and AVG).
-- Implemented subqueries, views, and indexes.
+- Performed JOIN operations.
+- Used aggregate functions such as SUM() and AVG().
+- Implemented views and indexes.
 - Captured query outputs and documented the SQL scripts.
 
 ---
@@ -119,6 +131,24 @@ Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify patte
 - Documented observations for each visualization.
 - Summarized key findings in a PDF report and supporting documentation.
 
+---
+
+### Task 6: Sales Trend Analysis Using Aggregations
+
+**Objective:**
+Analyze monthly revenue and order volume using SQL aggregation functions on an online sales dataset.
+
+**Work Completed:**
+- Imported the online sales dataset into SQLite.
+- Displayed all records from the sales table.
+- Calculated monthly revenue using the `SUM()` aggregate function.
+- Calculated monthly order volume using `COUNT(DISTINCT order_id)`.
+- Identified the top three months by total revenue.
+- Analyzed product-wise revenue using aggregation.
+- Calculated average monthly revenue.
+- Used `GROUP BY`, `ORDER BY`, `LIMIT`, and aggregate functions to generate business insights.
+- Captured query outputs and documented the SQL analysis.
+
 ## Tools & Technologies
 
 - Python
@@ -128,6 +158,7 @@ Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify patte
 - Jupyter Notebook
 - Microsoft Power BI
 - MySQL Workbench
+- SQLite
 - SQL
 - Visual Studio Code
 - Git
@@ -135,4 +166,4 @@ Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify patte
 
 ## About
 
-This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in data cleaning, exploratory data analysis, visualization, dashboard design, SQL-based data analysis, and business insight generation. The repository will continue to grow as I complete additional internship tasks.
+This repository documents my learning journey during the **Data Analyst Internship at Elevate Labs**. Each task demonstrates practical skills in **data cleaning, exploratory data analysis, data visualization, dashboard design, SQL-based data analysis, sales trend analysis, and business insight generation**. The repository will continue to grow as I complete additional internship tasks.
