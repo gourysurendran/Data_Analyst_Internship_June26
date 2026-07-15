@@ -171,7 +171,7 @@ Analyze monthly sales performance using SQL aggregation.
 
 ---
 
-# 🚀 Major Project – Customer Churn Analysis for Telecom Industry
+# 🚀 Major Project 1– Customer Churn Analysis for Telecom Industry
 
 ## Objective
 
