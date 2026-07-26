@@ -1,0 +1,218 @@
+# 📊 Customer Churn Analysis for Telecom Industry
+
+## 🚀 Elevate Labs – Data Analyst Internship Project
+
+### 👩‍💻 Author
+**Goury Surendran**
+
+B.Tech Computer Science & Engineering (AI & ML)  
+College of Engineering Kottarakkara
+
+---
+
+# 📌 Project Overview
+
+Customer churn is one of the biggest challenges faced by telecom companies. Losing existing customers directly impacts revenue and increases customer acquisition costs.
+
+This project analyzes customer behavior using the **IBM Telco Customer Churn Dataset** to identify the factors that contribute to customer churn. The project combines **Python, SQL, Machine Learning, SHAP Explainability, and Customer Segmentation** to generate business insights and support data-driven decision-making.
+
+---
+
+# 🎯 Objectives
+
+- Analyze telecom customer behavior.
+- Clean and preprocess the dataset.
+- Perform Exploratory Data Analysis (EDA).
+- Build and compare Machine Learning models.
+- Explain model predictions using SHAP.
+- Perform SQL-based business analysis.
+- Segment customers based on churn behavior.
+- Provide business recommendations to reduce churn.
+
+---
+
+# 📂 Dataset
+
+**Dataset:** IBM Telco Customer Churn Dataset
+
+- Total Records: **7043**
+- Features: **21**
+- Target Variable: **Churn**
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SHAP
+- SQLite (SQL)
+- Jupyter Notebook
+
+---
+
+# 📈 Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Machine Learning
+6. Model Evaluation
+7. SHAP Explainability
+8. SQL Analysis
+9. Customer Segmentation
+10. Business Recommendations
+
+---
+
+# 🤖 Machine Learning Models
+
+The following models were implemented and compared:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Random Forest produced the best overall performance among the evaluated models.
+
+---
+
+# 🧠 Explainable AI (SHAP)
+
+SHAP (SHapley Additive exPlanations) was used to understand the impact of different features on customer churn predictions.
+
+Important features include:
+
+- Contract
+- Tenure
+- Monthly Charges
+- Tech Support
+- Internet Service
+
+---
+
+# 🗄️ SQL Analysis
+
+SQL queries were performed to analyze:
+
+- Total Customers
+- Churn Rate
+- Contract-wise Customer Distribution
+- Payment Method Analysis
+- Internet Service Analysis
+- Average Monthly Charges
+- Average Customer Tenure
+- Senior Citizen Analysis
+
+---
+
+# 👥 Customer Segmentation
+
+Customers were categorized into:
+
+- 🟢 Loyal Customers
+- 🟡 At Risk Customers
+- 🔴 Dormant Customers
+
+This segmentation helps businesses create targeted customer retention strategies.
+
+---
+
+# 💡 Business Recommendations
+
+- Promote long-term contracts.
+- Improve customer support services.
+- Target at-risk customers with personalized offers.
+- Reward loyal customers.
+- Monitor churn using predictive analytics.
+
+---
+
+# 📁 Project Structure
+
+```text
+project1/
+│
+├── data/
+│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   ├── telco_customer_churn_cleaned.csv
+│   └── customer_churn.db
+│
+├── notebooks/
+│   └── customer_churn_analysis.ipynb
+│
+├── sql/
+│   └── customer_churn_analysis.sql
+│
+├── reports/
+│   ├── loyal_customers.csv
+│   ├── at_risk_customers.csv
+│   ├── dormant_customers.csv
+│   ├── Customer_Churn_Analysis_Report.pdf
+│   └── Customer_Churn_Analysis_Presentation.pptx
+│
+├── screenshots/
+│   └── (Project graphs and SQL screenshots)
+│
+└── README.md
+```
+
+---
+
+# ▶️ How to Run
+
+1. Clone the repository.
+
+```bash
+git clone <repository-url>
+```
+
+2. Install the required libraries.
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn shap
+```
+
+3. Open the notebook.
+
+```
+customer_churn_analysis.ipynb
+```
+
+4. Run all cells.
+
+---
+
+# 📊 Key Outcomes
+
+- Successfully analyzed telecom customer data.
+- Compared multiple machine learning models.
+- Identified key churn factors.
+- Explained predictions using SHAP.
+- Performed SQL-based business analysis.
+- Segmented customers into meaningful groups.
+- Generated business recommendations.
+
+---
+
+# 🔮 Future Improvements
+
+- Deploy the model as a web application.
+- Integrate real-time churn prediction.
+- Build an interactive dashboard using Power BI or Streamlit.
+- Automate customer retention recommendations.
+
+---
+
+# 🙏 Acknowledgement
+
+This project was completed as part of the **Elevate Labs Data Analyst Internship** to strengthen practical skills in **Data Analytics, SQL, Machine Learning, and Business Intelligence**.
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
