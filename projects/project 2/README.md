@@ -125,3 +125,11 @@ To keep the repository focused on artifacts and descriptions, explicit run or se
 
 ## 👨‍💻 Author
 **Goury S**
+
+# 🙏 Acknowledgement
+
+This project was completed as part of the **Elevate Labs Data Analyst Internship** 
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
