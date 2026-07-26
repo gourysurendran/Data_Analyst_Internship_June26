@@ -1,0 +1,306 @@
+# 📊 Customer Churn Analysis for Telecom Industry
+
+### 🚀 Machine Learning & Customer Analytics Project
+
+This project was developed as part of the **Elevate Labs Data Analyst Internship**. It focuses on predicting telecom customer churn using the **IBM Telco Customer Churn Dataset** by combining **Data Analytics, Machine Learning, SQL, Customer Segmentation, and Explainable AI (SHAP)**. The project aims to help telecom companies identify customers who are likely to leave and provide actionable business insights to improve customer retention.
+
+---
+
+## 📌 Project Overview
+
+Customer churn is one of the biggest challenges faced by telecom companies. Acquiring a new customer is significantly more expensive than retaining an existing one. Understanding the reasons behind customer churn enables businesses to develop effective retention strategies and improve long-term profitability.
+
+This project analyzes customer demographics, service subscriptions, billing information, and contract details to identify the key factors influencing customer churn. Multiple machine learning models are evaluated, SQL is used for business analysis, and SHAP is employed to explain model predictions.
+
+---
+
+## 🎯 Objectives
+
+- Analyze telecom customer behaviour.
+- Clean and preprocess the dataset.
+- Perform Exploratory Data Analysis (EDA).
+- Build and compare Machine Learning models.
+- Explain model predictions using SHAP.
+- Perform SQL-based business analysis.
+- Segment customers based on churn behaviour.
+- Generate business recommendations to reduce customer churn.
+
+---
+
+## 📂 Dataset
+
+**Dataset:** IBM Telco Customer Churn Dataset
+
+**Dataset Statistics**
+
+- Total Records: **7043**
+- Total Features: **21**
+- Target Variable: **Churn**
+
+The dataset contains customer demographic information, subscription details, contract information, billing data, and customer status.
+
+---
+
+## 🛠️ Technologies Used
+
+### Programming Language
+
+- Python
+
+### Libraries
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SHAP
+
+### Database
+
+- SQLite
+- SQL
+
+### Development Tools
+
+- Jupyter Notebook
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## 📈 Project Workflow
+
+The project follows the complete Data Analytics and Machine Learning pipeline:
+
+1. Data Collection
+2. Data Cleaning
+3. Data Preprocessing
+4. Exploratory Data Analysis
+5. Feature Engineering
+6. Machine Learning Model Development
+7. Model Evaluation
+8. SHAP Explainability
+9. SQL Business Analysis
+10. Customer Segmentation
+11. Business Recommendations
+
+---
+
+## 🤖 Machine Learning Models
+
+The following Machine Learning algorithms were implemented and evaluated:
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+### Best Performing Model
+
+✅ **Random Forest** achieved the highest prediction performance among the evaluated models.
+
+Evaluation metrics include:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+---
+
+## 🧠 Explainable AI (SHAP)
+
+To improve model interpretability, **SHAP (SHapley Additive exPlanations)** was used to explain individual model predictions.
+
+### Most Influential Features
+
+- Contract Type
+- Customer Tenure
+- Monthly Charges
+- Tech Support
+- Internet Service
+- Online Security
+- Payment Method
+
+SHAP visualizations provide insights into how each feature contributes to customer churn predictions.
+
+---
+
+## 🗄️ SQL Business Analysis
+
+SQLite was used to perform business-focused data analysis.
+
+### SQL Insights
+
+- Total Customers
+- Churn Rate
+- Contract-wise Customer Distribution
+- Internet Service Analysis
+- Payment Method Analysis
+- Senior Citizen Analysis
+- Average Monthly Charges
+- Average Customer Tenure
+- High Risk Customer Groups
+
+These SQL queries help transform raw customer data into actionable business insights.
+
+---
+
+## 👥 Customer Segmentation
+
+Customers were classified into three groups:
+
+🟢 **Loyal Customers**
+
+- Long tenure
+- Stable contracts
+- Low churn probability
+
+🟡 **At-Risk Customers**
+
+- High monthly charges
+- Short contracts
+- Medium churn probability
+
+🔴 **Dormant Customers**
+
+- Very high churn probability
+- Require immediate retention strategies
+
+Customer segmentation enables businesses to design targeted marketing and retention campaigns.
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis, the following recommendations are proposed:
+
+- Encourage customers to choose long-term contracts.
+- Improve customer support and technical assistance.
+- Provide personalised retention offers to at-risk customers.
+- Reward loyal customers with exclusive benefits.
+- Continuously monitor churn using predictive analytics.
+- Enhance customer engagement through proactive communication.
+
+---
+
+## 📁 Project Structure
+
+```text
+project1/
+│
+├── data/
+│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   ├── telco_customer_churn_cleaned.csv
+│   └── customer_churn.db
+│
+├── notebooks/
+│   └── customer_churn_analysis.ipynb
+│
+├── sql/
+│   └── customer_churn_analysis.sql
+│
+├── reports/
+│   ├── loyal_customers.csv
+│   ├── at_risk_customers.csv
+│   ├── dormant_customers.csv
+│   ├── Customer_Churn_Analysis_Report.pdf
+│   └── Customer_Churn_Analysis_Presentation.pptx
+│
+├── screenshots/
+│   ├── correlation_heatmap.png
+│   ├── churn_distribution.png
+│   ├── feature_importance.png
+│   ├── shap_summary.png
+│   └── sql_analysis.png
+│
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/gourysurendran/Data_Analyst_Internship_June26.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Data_Analyst_Internship_June26/projects/project1
+```
+
+### 3. Install the required packages
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn shap
+```
+
+### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 5. Open
+
+```text
+customer_churn_analysis.ipynb
+```
+
+### 6. Run all notebook cells
+
+---
+
+## 📊 Key Outcomes
+
+- Successfully cleaned and prepared telecom customer data.
+- Performed comprehensive Exploratory Data Analysis.
+- Built and evaluated multiple Machine Learning models.
+- Identified the major factors influencing customer churn.
+- Used SHAP to explain model predictions.
+- Conducted SQL-based business analysis.
+- Segmented customers into meaningful groups.
+- Generated practical business recommendations.
+
+---
+
+## 🔮 Future Improvements
+
+- Deploy the model using Streamlit or FastAPI.
+- Enable real-time customer churn prediction.
+- Integrate Power BI dashboards.
+- Automate customer retention recommendations.
+- Expand the project using cloud deployment.
+- Implement deep learning approaches for improved prediction accuracy.
+
+---
+
+## 🙏 Acknowledgement
+
+This project was completed as part of the **Elevate Labs Data Analyst Internship**. It provided valuable hands-on experience in **Data Analytics, Data Visualization, SQL, Machine Learning, Explainable AI, and Business Intelligence**, helping strengthen practical problem-solving and analytical skills.
+
+---
+
+## 👩‍💻 Author
+
+**Goury Surendran**
+
+**B.Tech Computer Science & Engineering (AI & ML)**
+
+**College of Engineering Kottarakkara**
+
+**Data Analyst Intern – Elevate Labs**
+
+**GitHub:** https://github.com/gourysurendran
+
+**LinkedIn:** *(Add your LinkedIn profile URL here.)*
+
+---
+
+⭐ **If you found this project useful, consider giving it a star on GitHub and feel free to connect with me!**
