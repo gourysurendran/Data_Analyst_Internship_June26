@@ -1,4 +1,3 @@
-````markdown
 # 📊 Data Analyst Internship – Elevate Labs
 
 Welcome to my **Data Analyst Internship** repository at **Elevate Labs**.
@@ -43,7 +42,7 @@ Data_Analyst_Internship_June26/
         ├── sql/
         ├── docs/
         └── README.md
-````
+```
 
 ---
 
@@ -57,18 +56,18 @@ Clean and preprocess the Customer Personality Analysis dataset using Python.
 
 ### Completed Work
 
-* Data Cleaning
-* Missing Value Handling
-* Duplicate Removal
-* Data Type Conversion
-* Feature Standardization
-* Clean Dataset Export
+- Data Cleaning
+- Missing Value Handling
+- Duplicate Removal
+- Data Type Conversion
+- Feature Standardization
+- Clean Dataset Export
 
 ### Tools Used
 
-* Python
-* Pandas
-* Jupyter Notebook
+- Python
+- Pandas
+- Jupyter Notebook
 
 ---
 
@@ -80,16 +79,16 @@ Build an interactive Power BI dashboard using Superstore data.
 
 ### Completed Work
 
-* KPI Dashboard
-* Sales Analysis
-* Profit Analysis
-* Regional Analysis
-* Category Analysis
-* Interactive Filters
+- KPI Dashboard
+- Sales Analysis
+- Profit Analysis
+- Regional Analysis
+- Category Analysis
+- Interactive Filters
 
 ### Tools Used
 
-* Microsoft Power BI
+- Microsoft Power BI
 
 ---
 
@@ -101,18 +100,18 @@ Perform business analysis using SQL.
 
 ### Completed Work
 
-* SELECT Queries
-* Aggregate Functions
-* GROUP BY
-* ORDER BY
-* JOIN Operations
-* Views
-* SQL Documentation
+- SELECT Queries
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- JOIN Operations
+- Views
+- SQL Documentation
 
 ### Tools Used
 
-* SQLite
-* SQL
+- SQLite
+- SQL
 
 ---
 
@@ -124,15 +123,15 @@ Create a professional business dashboard in Power BI.
 
 ### Completed Work
 
-* KPI Dashboard
-* Interactive Charts
-* Sales Trends
-* Profit Trends
-* Dashboard Presentation
+- KPI Dashboard
+- Interactive Charts
+- Sales Trends
+- Profit Trends
+- Dashboard Presentation
 
 ### Tools Used
 
-* Microsoft Power BI
+- Microsoft Power BI
 
 ---
 
@@ -144,20 +143,20 @@ Perform Exploratory Data Analysis on the Titanic dataset.
 
 ### Completed Work
 
-* Data Exploration
-* Histograms
-* Boxplots
-* Scatterplots
-* Correlation Heatmap
-* Statistical Summary
-* EDA Report
+- Data Exploration
+- Histograms
+- Boxplots
+- Scatterplots
+- Correlation Heatmap
+- Statistical Summary
+- EDA Report
 
 ### Tools Used
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
 ---
 
@@ -169,158 +168,158 @@ Analyze online sales performance using SQL.
 
 ### Completed Work
 
-* Monthly Revenue Analysis
-* Product Performance
-* Sales Trends
-* Business Insights
-* SQL Queries
-* Recommendations
+- Monthly Revenue Analysis
+- Product Performance
+- Sales Trends
+- Business Insights
+- SQL Queries
+- Recommendations
 
 ### Tools Used
 
-* SQLite
-* SQL
+- SQLite
+- SQL
 
 ---
 
 # 🚀 Major Project 1
 
-# Customer Churn Analysis for Telecom Industry
+## Customer Churn Analysis for Telecom Industry
 
-## Objective
+### Objective
 
 Predict customer churn using Machine Learning and identify the key factors affecting customer retention.
 
 ### Features
 
-* Data Cleaning
-* Exploratory Data Analysis
-* Feature Engineering
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* SHAP Explainability
-* Customer Segmentation
-* SQL Analysis
-* Business Recommendations
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- SHAP Explainability
+- Customer Segmentation
+- SQL Analysis
+- Business Recommendations
 
 ### Technologies
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* SHAP
-* SQLite
-* SQL
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- SHAP
+- SQLite
+- SQL
 
 ---
 
 # 🚀 Major Project 2
 
-# Retail Business Performance & Profitability Analysis
+## Retail Business Performance & Profitability Analysis
 
-## Objective
+### Objective
 
 Develop a Business Intelligence web application to analyze retail sales, profitability, customer behavior, and business performance.
 
 ### Features
 
-* React Dashboard
-* FastAPI Backend
-* KPI Dashboard
-* Sales Analysis
-* Profit Analysis
-* Customer Segmentation
-* Regional Analysis
-* SQL Analytics
-* REST API
-* Business Recommendations
-* Responsive UI
+- React Dashboard
+- FastAPI Backend
+- KPI Dashboard
+- Sales Analysis
+- Profit Analysis
+- Customer Segmentation
+- Regional Analysis
+- SQL Analytics
+- REST API
+- Business Recommendations
+- Responsive UI
 
 ### Frontend
 
-* React.js
-* Tailwind CSS
-* Recharts
+- React.js
+- Tailwind CSS
+- Recharts
 
 ### Backend
 
-* FastAPI
-* Python
+- FastAPI
+- Python
 
 ### Database
 
-* SQLite
+- SQLite
 
 ### Analytics
 
-* Pandas
-* NumPy
-* SQL
+- Pandas
+- NumPy
+- SQL
 
 ---
 
 # 🛠️ Technologies Used
 
-## Programming Languages
+### Programming Languages
 
-* Python
-* SQL
-* JavaScript
+- Python
+- SQL
+- JavaScript
 
-## Libraries
+### Libraries
 
-* Pandas
-* NumPy
-* Matplotlib
-* Plotly
-* Scikit-learn
-* SHAP
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Scikit-learn
+- SHAP
 
-## BI & Visualization
+### BI & Visualization
 
-* Microsoft Power BI
-* Recharts
+- Microsoft Power BI
+- Recharts
 
-## Web Development
+### Web Development
 
-* React.js
-* FastAPI
-* Tailwind CSS
+- React.js
+- FastAPI
+- Tailwind CSS
 
-## Database
+### Database
 
-* SQLite
+- SQLite
 
-## Tools
+### Tools
 
-* Git
-* GitHub
-* Jupyter Notebook
-* Visual Studio Code
+- Git
+- GitHub
+- Jupyter Notebook
+- Visual Studio Code
 
 ---
 
 # 💼 Skills Demonstrated
 
-* Data Cleaning
-* Data Preprocessing
-* Exploratory Data Analysis
-* Statistical Analysis
-* SQL Querying
-* Database Design
-* Dashboard Design
-* Business Intelligence
-* Machine Learning
-* Explainable AI (SHAP)
-* Customer Segmentation
-* REST API Development
-* React Development
-* FastAPI Development
-* Technical Documentation
-* Git & GitHub
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis
+- Statistical Analysis
+- SQL Querying
+- Database Design
+- Dashboard Design
+- Business Intelligence
+- Machine Learning
+- Explainable AI (SHAP)
+- Customer Segmentation
+- REST API Development
+- React Development
+- FastAPI Development
+- Technical Documentation
+- Git & GitHub
 
 ---
 
@@ -328,16 +327,16 @@ Develop a Business Intelligence web application to analyze retail sales, profita
 
 During this internship, I gained practical experience in:
 
-* Cleaning real-world datasets
-* Data visualization
-* SQL-based business analysis
-* Dashboard development
-* Machine learning model development
-* Explainable AI
-* REST API development
-* React application development
-* Business analytics
-* Version control using Git
+- Cleaning real-world datasets
+- Data visualization
+- SQL-based business analysis
+- Dashboard development
+- Machine learning model development
+- Explainable AI
+- REST API development
+- React application development
+- Business analytics
+- Version control using Git
 
 ---
 
@@ -347,15 +346,15 @@ This repository documents my journey through the **Elevate Labs Data Analyst Int
 
 It demonstrates practical implementations of:
 
-* Data Analytics
-* SQL
-* Business Intelligence
-* Data Visualization
-* Machine Learning
-* Dashboard Development
-* Customer Analytics
-* React
-* FastAPI
+- Data Analytics
+- SQL
+- Business Intelligence
+- Data Visualization
+- Machine Learning
+- Dashboard Development
+- Customer Analytics
+- React
+- FastAPI
 
 ---
 
@@ -367,9 +366,9 @@ It demonstrates practical implementations of:
 
 **Data Analyst Intern – Elevate Labs**
 
-**GitHub:** [https://github.com/gourysurendran](https://github.com/gourysurendran)
+**GitHub:** https://github.com/gourysurendran
 
-**LinkedIn:** 
+**LinkedIn:** *(Add your LinkedIn profile URL here.)*
 
 ---
 
@@ -380,6 +379,3 @@ Special thanks to **Elevate Labs** for providing an excellent learning experienc
 ---
 
 ⭐ **If you found this repository useful, feel free to explore the projects, share your feedback, and connect with me!**
-
-```
-```
