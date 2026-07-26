@@ -1,7 +1,7 @@
 # Retail Business Performance & Profitability Analysis
 ### Business Intelligence & Performance Dashboard Project
 
-An interactive, production-ready Data Analytics and Business Intelligence application designed to analyze retail business performance. The project simulates a US-based commercial retail distributor (Superstore dataset architecture) and explores sales transaction registers, regional profit margins, shipping channels, and discount structures to uncover operational leakages and defend bottom-line profitability.
+An interactive, production-ready Data Analytics and Business Intelligence application designed to analyze retail business performance. The project simulates a US-based commercial retail distributor and showcases dashboard design, SQL analytics, and automated reporting.
 
 ---
 
@@ -22,7 +22,7 @@ The interface features a professional dark-themed dashboard, responsive design, 
 ![Analytics Workspace](screenshots/analytics.png)
 
 ### 4. SQL Insights Engine
-*Interactive SQL executor running 15 pre-written analytical database queries on a SQLite database, complete with performance speed indices and analyst descriptions, plus a sandbox console query runner.*
+*Interactive SQL executor running 15 pre-written analytical database queries on a SQLite database, complete with performance speed indices and analyst descriptions, plus a sandbox console for custom queries.*
 ![SQL Insights Panel](screenshots/sql_insights.png)
 
 ### 5. Business Insights Catalog
@@ -109,97 +109,14 @@ Retail_Business_Performance_Analysis/
 
 ---
 
-## 🚀 Installation & Local Execution
+## 🔒 Demo note
 
-Follow these steps to run the application locally on your system.
-
-### Prerequisites
-- Python 3.8 or higher installed.
-- Node.js (v16 or higher) and npm installed.
-
-### 1. Initialize and Run the Backend Server
-Open a terminal in the root folder of the project:
-
-```bash
-# Navigate to backend folder
-cd backend
-
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-# Activate virtual environment (Windows)
-.\venv\Scripts\activate
-# Activate virtual environment (macOS/Linux)
-source venv/bin/activate
-
-# Install backend dependencies
-pip install -r requirements.txt
-
-# Start the FastAPI server using Uvicorn
-python app.py
-```
-Upon launching, the backend will automatically:
-1. Generate a synthetic dataset containing 5,500 orders and write it to `data/superstore_sales.csv`.
-2. Clean data structures (de-duplication, handling missing values) and write it to SQLite (`data/retail_analytics.db`).
-3. Index key SQLite tables for speed.
-4. Programmatically compile the PDF report and PPTX deck and store them in the `reports/` folder.
-5. Launch the server locally on **`http://127.0.0.1:8000`**.
-
----
-
-### 2. Initialize and Run the React Frontend
-Open a new terminal window in the root folder of the project:
-
-```bash
-# Navigate to frontend folder
-cd frontend
-
-# Install frontend dependencies
-npm install
-
-# Run the development compiler server
-npm run dev
-```
-The React development server will start on **`http://localhost:3000`**. 
-
-Open your browser and navigate to `http://localhost:3000`. The frontend is fully connected to the FastAPI server using proxies configured in `vite.config.js`.
-
----
-
-## 🐳 Deployment Guide
-
-For a production environment (such as deploying to cloud providers like Heroku, Render, AWS, or Vercel):
-
-### 1. Unified Static Compilation
-In production, you can build the React app into static files and serve them using FastAPI's static mounting. This eliminates running two separate servers.
-
-Inside `frontend/`:
-```bash
-npm run build
-```
-This creates a `dist/` folder containing compiled HTML, JS, and CSS. 
-
-You can then mount these static assets in `backend/app.py`:
-```python
-from fastapi.staticfiles import StaticFiles
-
-# Mount dist folder containing built React files
-app.mount("/", StaticFiles(directory="../frontend/dist", html=True), name="static")
-```
-
-### 2. Cloud Server Hosting (e.g., Render or Heroku)
-- Create a web service linked to your Git repository.
-- Build command:
-  ```bash
-  pip install -r backend/requirements.txt && cd frontend && npm install && npm run build
-  ```
-- Start command:
-  ```bash
-  cd backend && uvicorn app:app --host 0.0.0.0 --port $PORT
-  ```
+To keep the repository focused on artifacts and descriptions, explicit run or setup instructions have been removed from this README. If you need reproduction or deployment steps (environment, install commands, or database initialization), please contact the repository owner for the precise instructions or request a runnable branch.
 
 ---
 
 ## 🔮 Future Enhancements
+
 - **Multi-tenant logins**: User authentication profiles restricting SQL consoles to specific groups.
 - **SQL Execution Plan Explanations**: Visual query optimization guides outlining SQLite `EXPLAIN QUERY PLAN` execution logs.
 - **Advanced Dynamic Visualizations**: Pivot table grids allowing custom column-group nesting directly in browser screens.
