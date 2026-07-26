@@ -299,7 +299,7 @@ This project was completed as part of the **Elevate Labs Data Analyst Internship
 
 **GitHub:** https://github.com/gourysurendran
 
-**LinkedIn:** *(Add your LinkedIn profile URL here.)*
+**LinkedIn:**
 
 ---
 
