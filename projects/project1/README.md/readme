@@ -1,12 +1,6 @@
-# 📊 Customer Churn Analysis for Telecom Industry
+# 📊 **Customer Churn Analysis for Telecom Industry**
 
-## 🚀 Elevate Labs – Data Analyst Internship Project
-
-### 👩‍💻 Author
-**Goury Surendran**
-
-B.Tech Computer Science & Engineering (AI & ML)  
-College of Engineering Kottarakkara
+## 🚀 **Elevate Labs – Data Analyst Internship Project**
 
 ---
 
@@ -35,9 +29,9 @@ This project analyzes customer behavior using the **IBM Telco Customer Churn Dat
 
 **Dataset:** IBM Telco Customer Churn Dataset
 
-- **Total Records:** 7043
-- **Features:** 21
-- **Target Variable:** Churn
+- Total Records: **7043**
+- Features: **21**
+- Target Variable: **Churn**
 
 ---
 
@@ -84,9 +78,9 @@ The following models were implemented and compared:
 
 # 🧠 **Explainable AI (SHAP)**
 
-SHAP (SHapley Additive exPlanations) was used to understand the impact of different features on customer churn predictions.
+SHAP (**SHapley Additive exPlanations**) was used to understand the impact of different features on customer churn predictions.
 
-**Important features include:**
+Important features include:
 
 - Contract
 - Tenure
@@ -166,27 +160,25 @@ project1/
 
 # ▶️ **How to Run**
 
-### **1. Clone the Repository**
+### **1. Clone the repository**
 
 ```bash
 git clone <repository-url>
 ```
 
-### **2. Install Required Libraries**
+### **2. Install the required libraries**
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn shap
 ```
 
-### **3. Open the Notebook**
+### **3. Open the notebook**
 
 ```text
 customer_churn_analysis.ipynb
 ```
 
-### **4. Run All Cells**
-
-Execute the notebook from top to bottom to reproduce the analysis and results.
+### **4. Run all cells**
 
 ---
 
@@ -217,4 +209,14 @@ This project was completed as part of the **Elevate Labs Data Analyst Internship
 
 ---
 
-## ⭐ **If you found this project useful, consider giving it a star on GitHub!**
+# 👩‍💻 **Author**
+
+**Goury Surendran**
+
+**B.Tech Computer Science & Engineering (AI & ML)**
+
+**College of Engineering Kottarakkara**
+
+---
+
+⭐ **If you found this project useful, consider giving it a star on GitHub.**
