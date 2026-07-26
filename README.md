@@ -2,7 +2,7 @@
 
 Welcome to my **Data Analyst Internship** repository at **Elevate Labs**.
 
-This repository contains all the tasks and projects completed during my internship. It showcases practical experience in **Data Analytics, SQL, Data Visualization, Machine Learning, Business Intelligence, Dashboard Development, and Full-Stack Analytics Applications**.
+This repository contains all the tasks and projects completed during my internship. It showcases practical experience in **Data Analytics, SQL, Data Visualization, Machine Learning, Business Intelligence**, and dashboard development. Browse the tasks and projects below to see notebooks, SQL scripts, dashboards, and reports I completed.
 
 ---
 
@@ -379,3 +379,13 @@ Special thanks to **Elevate Labs** for providing an excellent learning experienc
 ---
 
 ⭐ **If you found this repository useful, feel free to explore the projects, share your feedback, and connect with me!**
+
+---
+
+## Project screenshot — SQL insights
+
+Below is the SQL insights screenshot from Project 2. I added accessible alt text and a short caption. If you’d like, I can also compress or rename the image file to remove spaces in the path.
+
+![SQL insights dashboard showing revenue, profit, and top product queries visualized as bar and line charts.](projects/project 2/screenshots/sql_insights.png)
+
+*Caption:* SQL insights dashboard showing revenue, profit, and top product queries visualized as bar and line charts.
