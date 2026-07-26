@@ -1,415 +1,361 @@
+````markdown
 # 📊 Data Analyst Internship – Elevate Labs
 
 Welcome to my **Data Analyst Internship** repository at **Elevate Labs**.
 
-This repository contains all the internship tasks, datasets, notebooks, SQL scripts, dashboards, reports, presentations, and major projects completed during my internship. It demonstrates practical skills in **Data Analytics, Data Visualization, SQL, Machine Learning, Business Intelligence, Dashboard Development, and Full-Stack Analytics Applications**.
+This repository contains all the tasks and projects completed during my internship. It showcases practical experience in **Data Analytics, SQL, Data Visualization, Machine Learning, Business Intelligence, Dashboard Development, and Full-Stack Analytics Applications**.
 
 ---
 
-# 📁 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Data_Analyst_Internship_June26/
 │
 ├── README.md
+├── LICENSE
 │
 ├── task1/
-│   ├── README.md
-│   ├── cleaning_summary.md
-│   ├── data_cleaning.ipynb
-│   ├── marketing_campaign.csv
-│   └── marketing_campaign_cleaned.csv
-│
 ├── task2/
-│   ├── README.md
-│   ├── insights.md
-│   ├── SampleSuperstore.csv
-│   ├── Task2_PowerBI.pbix
-│   ├── Dashboard Screenshot.png
-│   └── Dashboard.pdf
-│
 ├── task3/
-│   ├── README.md
-│   ├── task3.sql
-│   └── screenshots/
-│
 ├── task4/
-│   ├── README.md
-│   ├── insights.md
-│   ├── Task4_PowerBI.pbix
-│   ├── Sample-Superstore.csv
-│   ├── Dashboard_Screenshot.png
-│   └── Dashboard_Summary.pptx
-│
 ├── task5/
-│   ├── README.md
-│   ├── insights.md
-│   ├── eda.ipynb
-│   ├── Titanic.csv
-│   └── EDA_Report.pdf
-│
 ├── task6/
-│   ├── README.md
-│   ├── insights.md
-│   ├── task6.sql
-│   ├── task6.db
-│   ├── online_sales.csv
-│   └── out/
 │
-├── Customer_Churn_Analysis_projet1/
-│   ├── README.md
-│   ├── data/
-│   │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   │   ├── loyal_customers.csv
-│   │   ├── at_risk_customers.csv
-│   │   └── dormant_customers.csv
-│   │
-│   ├── notebooks/
-│   │   └── customer_churn_analysis.ipynb
-│   │
-│   ├── reports/
-│   │   ├── Customer_Churn_Analysis_Report.pdf
-│   │   └── Customer_Churn_Presentation.pptx
-│   │
-│   ├── screenshots/
-│   │   ├── churn_distribution.png
-│   │   ├── correlation_heatmap.png
-│   │   ├── feature_importance.png
-│   │   ├── shap_summary.png
-│   │   └── model_comparison.png
-│   │
-│   ├── sql/
-│   │   ├── customer_churn.sql
-│   │   └── churn_analysis.db
-│   │
-│   └── requirements.txt
-│
-├── Retail_Business_Performance_Analysis_project2/
-│   ├── README.md
-│   │
-│   ├── backend/
-│   │   ├── app.py
-│   │   ├── analysis.py
-│   │   ├── database.py
-│   │   ├── routes.py
-│   │   ├── requirements.txt
-│   │   └── ...
-│   │
-│   ├── frontend/
-│   │   ├── public/
-│   │   ├── src/
-│   │   │   ├── components/
-│   │   │   ├── pages/
-│   │   │   ├── charts/
-│   │   │   ├── assets/
-│   │   │   ├── App.jsx
-│   │   │   └── main.jsx
-│   │   ├── package.json
-│   │   └── package-lock.json
-│   │
-│   ├── data/
-│   │   └── SampleSuperstore.csv
-│   │
-│   ├── database/
-│   │   └── retail.db
-│   │
-│   ├── reports/
-│   │   ├── Retail_Business_Report.pdf
-│   │   └── Retail_Business_Presentation.pptx
-│   │
-│   ├── screenshots/
-│   │   ├── home.png
-│   │   ├── dashboard.png
-│   │   ├── analytics.png
-│   │   ├── sql_insights.png
-│   │   ├── recommendations.png
-│   │   └── reports.png
-│   │
-│   ├── sql/
-│   │   ├── retail_analysis.sql
-│   │   └── queries.sql
-│   │
-│   └── docs/
-│       ├── API_Documentation.md
-│       └── Installation_Guide.md
-│
-└── LICENSE
-```
+└── projects/
+    │
+    ├── Project1/
+    │   ├── data/
+    │   ├── notebooks/
+    │   ├── reports/
+    │   ├── screenshots/
+    │   ├── sql/
+    │   ├── requirements.txt
+    │   └── README.md
+    │
+    └── Project2/
+        ├── backend/
+        ├── frontend/
+        ├── data/
+        ├── database/
+        ├── reports/
+        ├── screenshots/
+        ├── sql/
+        ├── docs/
+        └── README.md
+````
 
 ---
 
-# ✅ Internship Tasks
+# 📌 Internship Tasks
 
-## 📌 Task 1 – Data Cleaning and Preprocessing
+## ✅ Task 1 – Data Cleaning & Preprocessing
 
-**Objective:** Clean and preprocess the Customer Personality Analysis dataset using Python and Pandas.
+### Objective
 
-### Work Completed
+Clean and preprocess the Customer Personality Analysis dataset using Python.
 
-- Loaded dataset
-- Handled missing values
-- Removed duplicate records
-- Standardized column names
-- Converted data types
-- Processed date columns
-- Exported cleaned dataset
+### Completed Work
 
----
+* Data Cleaning
+* Missing Value Handling
+* Duplicate Removal
+* Data Type Conversion
+* Feature Standardization
+* Clean Dataset Export
 
-## 📌 Task 2 – Data Visualization and Storytelling
+### Tools Used
 
-**Objective:** Create an interactive Power BI dashboard using Superstore sales data.
-
-### Work Completed
-
-- KPI Cards
-- Sales Analysis
-- Profit Analysis
-- Category-wise Performance
-- Regional Analysis
-- Interactive Filters
-- Business Insights
+* Python
+* Pandas
+* Jupyter Notebook
 
 ---
 
-## 📌 Task 3 – SQL for Data Analysis
+## ✅ Task 2 – Data Visualization & Storytelling
 
-**Objective:** Analyze relational data using SQL.
+### Objective
 
-### Work Completed
+Build an interactive Power BI dashboard using Superstore data.
 
-- SQL Queries
-- Aggregate Functions
-- GROUP BY
-- JOIN Operations
-- Views
-- Indexes
-- SQL Documentation
+### Completed Work
 
----
+* KPI Dashboard
+* Sales Analysis
+* Profit Analysis
+* Regional Analysis
+* Category Analysis
+* Interactive Filters
 
-## 📌 Task 4 – Dashboard Design
+### Tools Used
 
-**Objective:** Design a professional Power BI dashboard.
-
-### Work Completed
-
-- KPI Dashboard
-- Interactive Visualizations
-- Sales Trends
-- Profit Trends
-- Dashboard Presentation
+* Microsoft Power BI
 
 ---
 
-## 📌 Task 5 – Exploratory Data Analysis (EDA)
+## ✅ Task 3 – SQL for Data Analysis
 
-**Objective:** Perform Exploratory Data Analysis on the Titanic dataset.
+### Objective
 
-### Work Completed
+Perform business analysis using SQL.
 
-- Data Exploration
-- Histograms
-- Boxplots
-- Scatterplots
-- Correlation Heatmap
-- Statistical Analysis
-- EDA Report
+### Completed Work
 
----
+* SELECT Queries
+* Aggregate Functions
+* GROUP BY
+* ORDER BY
+* JOIN Operations
+* Views
+* SQL Documentation
 
-## 📌 Task 6 – Sales Trend Analysis Using SQL
+### Tools Used
 
-**Objective:** Analyze online sales trends using SQL.
-
-### Work Completed
-
-- Monthly Revenue Analysis
-- Sales Trends
-- Product Analysis
-- SQL Aggregation
-- Business Insights
-- Recommendations
+* SQLite
+* SQL
 
 ---
 
-# 🚀 Major Project 1 – Customer Churn Analysis for Telecom Industry
+## ✅ Task 4 – Dashboard Design
+
+### Objective
+
+Create a professional business dashboard in Power BI.
+
+### Completed Work
+
+* KPI Dashboard
+* Interactive Charts
+* Sales Trends
+* Profit Trends
+* Dashboard Presentation
+
+### Tools Used
+
+* Microsoft Power BI
+
+---
+
+## ✅ Task 5 – Exploratory Data Analysis (EDA)
+
+### Objective
+
+Perform Exploratory Data Analysis on the Titanic dataset.
+
+### Completed Work
+
+* Data Exploration
+* Histograms
+* Boxplots
+* Scatterplots
+* Correlation Heatmap
+* Statistical Summary
+* EDA Report
+
+### Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+
+---
+
+## ✅ Task 6 – Sales Trend Analysis Using SQL
+
+### Objective
+
+Analyze online sales performance using SQL.
+
+### Completed Work
+
+* Monthly Revenue Analysis
+* Product Performance
+* Sales Trends
+* Business Insights
+* SQL Queries
+* Recommendations
+
+### Tools Used
+
+* SQLite
+* SQL
+
+---
+
+# 🚀 Major Project 1
+
+# Customer Churn Analysis for Telecom Industry
 
 ## Objective
 
-Predict telecom customer churn and identify key factors influencing customer retention using Data Analytics and Machine Learning.
+Predict customer churn using Machine Learning and identify the key factors affecting customer retention.
 
-### Project Highlights
+### Features
 
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis
-- Feature Engineering
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Model Comparison
-- SHAP Explainability
-- SQL Analysis
-- Customer Segmentation (Loyal, At Risk, Dormant)
-- Business Recommendations
-- Technical Report
-- PowerPoint Presentation
+* Data Cleaning
+* Exploratory Data Analysis
+* Feature Engineering
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* SHAP Explainability
+* Customer Segmentation
+* SQL Analysis
+* Business Recommendations
 
-### Technologies Used
+### Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- SHAP
-- SQLite
-- SQL
-- Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* SHAP
+* SQLite
+* SQL
 
 ---
 
-# 🚀 Major Project 2 – Retail Business Performance & Profitability Analysis
+# 🚀 Major Project 2
+
+# Retail Business Performance & Profitability Analysis
 
 ## Objective
 
-Develop a modern Business Intelligence and Data Analytics platform to analyze retail sales, profitability, customer behavior, and operational performance using an interactive web application.
+Develop a Business Intelligence web application to analyze retail sales, profitability, customer behavior, and business performance.
 
-### Project Highlights
+### Features
 
-- Interactive Analytics Website
-- React Frontend
-- FastAPI Backend
-- KPI Dashboard
-- Sales & Profit Analysis
-- Category & Sub-category Analysis
-- Region Analysis
-- Customer Segment Analysis
-- Discount Analysis
-- SQL Analytics
-- Business Insights
-- Business Recommendations
-- REST API Integration
-- Responsive Dashboard
-- Technical Documentation
+* React Dashboard
+* FastAPI Backend
+* KPI Dashboard
+* Sales Analysis
+* Profit Analysis
+* Customer Segmentation
+* Regional Analysis
+* SQL Analytics
+* REST API
+* Business Recommendations
+* Responsive UI
 
-### Technologies Used
+### Frontend
 
-#### Frontend
+* React.js
+* Tailwind CSS
+* Recharts
 
-- React.js
-- Tailwind CSS
-- Recharts
+### Backend
 
-#### Backend
+* FastAPI
+* Python
 
-- FastAPI
-- Python
+### Database
 
-#### Data Analytics
+* SQLite
 
-- Pandas
-- NumPy
-- SQLite
-- SQL
+### Analytics
 
-#### Visualization
-
-- Plotly
-- Matplotlib
-
-#### Development
-
-- Visual Studio Code
-- Git
-- GitHub
+* Pandas
+* NumPy
+* SQL
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Scikit-learn
-- SHAP
-- SQL
-- SQLite
-- Microsoft Power BI
-- React.js
-- FastAPI
-- Tailwind CSS
-- Recharts
-- Jupyter Notebook
-- Visual Studio Code
-- Git
-- GitHub
+## Programming Languages
+
+* Python
+* SQL
+* JavaScript
+
+## Libraries
+
+* Pandas
+* NumPy
+* Matplotlib
+* Plotly
+* Scikit-learn
+* SHAP
+
+## BI & Visualization
+
+* Microsoft Power BI
+* Recharts
+
+## Web Development
+
+* React.js
+* FastAPI
+* Tailwind CSS
+
+## Database
+
+* SQLite
+
+## Tools
+
+* Git
+* GitHub
+* Jupyter Notebook
+* Visual Studio Code
 
 ---
 
 # 💼 Skills Demonstrated
 
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- SQL Querying
-- Database Design
-- Data Visualization
-- Dashboard Design
-- Power BI
-- Business Intelligence
-- Business Analytics
-- Machine Learning
-- Explainable AI (SHAP)
-- Customer Segmentation
-- React Development
-- FastAPI Development
-- REST API Development
-- Technical Documentation
-- Report Writing
-- Presentation Design
-- Version Control (Git & GitHub)
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis
+* Statistical Analysis
+* SQL Querying
+* Database Design
+* Dashboard Design
+* Business Intelligence
+* Machine Learning
+* Explainable AI (SHAP)
+* Customer Segmentation
+* REST API Development
+* React Development
+* FastAPI Development
+* Technical Documentation
+* Git & GitHub
 
 ---
 
-# 📈 Key Learning Outcomes
+# 📈 Learning Outcomes
 
-Throughout this internship, I gained practical experience in:
+During this internship, I gained practical experience in:
 
-- Cleaning and preprocessing real-world datasets
-- Performing exploratory data analysis
-- Writing SQL queries for business analytics
-- Designing interactive Power BI dashboards
-- Developing machine learning models
-- Explaining model predictions using SHAP
-- Building REST APIs using FastAPI
-- Developing React-based analytics dashboards
-- Creating technical reports and presentations
-- Managing projects using Git and GitHub
+* Cleaning real-world datasets
+* Data visualization
+* SQL-based business analysis
+* Dashboard development
+* Machine learning model development
+* Explainable AI
+* REST API development
+* React application development
+* Business analytics
+* Version control using Git
 
 ---
 
 # 📌 About
 
-This repository documents my learning journey during the **Elevate Labs Data Analyst Internship**.
+This repository documents my journey through the **Elevate Labs Data Analyst Internship**.
 
-It showcases practical applications of:
+It demonstrates practical implementations of:
 
-- Data Analytics
-- SQL
-- Data Visualization
-- Business Intelligence
-- Machine Learning
-- Dashboard Development
-- Customer Analytics
-- React & FastAPI Development
-- Technical Documentation
-
-Each task and project demonstrates hands-on experience with real-world datasets and industry-standard tools.
+* Data Analytics
+* SQL
+* Business Intelligence
+* Data Visualization
+* Machine Learning
+* Dashboard Development
+* Customer Analytics
+* React
+* FastAPI
 
 ---
 
@@ -421,16 +367,19 @@ Each task and project demonstrates hands-on experience with real-world datasets 
 
 **Data Analyst Intern – Elevate Labs**
 
-**GitHub:** https://github.com/gourysurendran
+**GitHub:** [https://github.com/gourysurendran](https://github.com/gourysurendran)
 
 **LinkedIn:** 
 
 ---
 
-# ⭐ Acknowledgements
+# 🙏 Acknowledgements
 
-Special thanks to **Elevate Labs** for providing practical learning opportunities and real-world data analytics tasks that strengthened my analytical, technical, and problem-solving skills.
+Special thanks to **Elevate Labs** for providing an excellent learning experience through practical tasks and real-world projects in Data Analytics.
 
 ---
 
-⭐ **Thank you for visiting this repository! Feel free to explore the projects, share your feedback, and connect with me.**
+⭐ **If you found this repository useful, feel free to explore the projects, share your feedback, and connect with me!**
+
+```
+```
