@@ -382,10 +382,3 @@ Special thanks to **Elevate Labs** for providing an excellent learning experienc
 
 ---
 
-## Project screenshot — SQL insights
-
-Below is the SQL insights screenshot from Project 2. I added accessible alt text and a short caption. If you’d like, I can also compress or rename the image file to remove spaces in the path.
-
-![SQL insights dashboard showing revenue, profit, and top product queries visualized as bar and line charts.](projects/project 2/screenshots/sql_insights.png)
-
-*Caption:* SQL insights dashboard showing revenue, profit, and top product queries visualized as bar and line charts.
